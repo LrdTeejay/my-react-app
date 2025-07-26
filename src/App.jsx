@@ -139,15 +139,15 @@ function App() {
     <section style={{backgroundColor:"hsla(286, 72%, 27%, 1.00)", color: "white", paddingBlock:70, textAlign:"center" }}>
       <h1 style={{fontSize:30, }} >We’re in the business of growing businesses.</h1> <br /><br />
       <div className="span"> 
-      <span style={{maxWidth: "25%"}}>
+      <span style={{maxWidth: "26%"}}>
       <h1 style={{ fontSize:60, fontWeight: "bolder", color: "hsla(270, 88%, 75%, 1.00)", fontFamily: "verdana"}}>90%</h1>
       <h2 style={{ fontSize:20, marginTop:"-2em",  fontFamily: "verdana"}}>of users say Slack helps them stay more connected</h2>
       </span>
-      <span style={{maxWidth: "25%"}}>
+      <span style={{maxWidth: "26%"}}>
       <h1 style={{ fontSize:60, fontWeight: "bolder", color: "hsla(270, 88%, 75%, 1.00)",  fontFamily: "verdana"}}>43%</h1>
       <h2 style={{ fontSize:20, marginTop:"-2em",  fontFamily: "verdana"}}>of users say Slack helps them stay more connected</h2>
       </span>
-      <span style={{maxWidth: "25%"}}>
+      <span style={{maxWidth: "26%"}}>
       <h1 style={{ fontSize:60, fontWeight: "bolder", color: "hsla(270, 88%, 75%, 1.00)", fontFamily: "verdana"}}>87%</h1>
       <h2 style={{ fontSize:20, marginTop:"-2em",  fontFamily: "verdana"}}>of users say Slack helps them stay more connected</h2>
       </span>
