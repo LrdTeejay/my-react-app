@@ -4,14 +4,14 @@ function App() {
     <main>
     <header >
     <nav style={{display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom:80}}>
-      <img style={{width: 150, height:60, }} src="\src\images\slack.png" />
+      <img style={{width: 150, height:60, }} src="/slack.png" />
       <div className="att" style={{fontWeight:"bolder"}}>Features </div>
       <div className="att" style={{fontWeight:"bolder"}}>Solution </div>
       <div className="att" style={{fontWeight:"bolder"}}>Enterprise </div>
       <div className="att" style={{fontWeight:"bolder"}}>Resources </div>
       <div className="att" style={{fontWeight:"bolder"}}>Pricing </div>
       <div style={{display:"flex", alignItems: "center", gap:20}}>
-      <img src="src/images/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" />
+      <img src="/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" />
       <button style={{backgroundColor: "hsla(286, 72%, 27%, 1.00)", color: "white", padding:15, borderRadius: 5, fontWeight: 600, border:"none",}}>GET STARTED</button>
       </div>
     </nav>
@@ -19,8 +19,8 @@ function App() {
     <section style={{textAlign: "center"}} > 
            <h1>
         <video style={{width:"100%", maxWidth:760}} autoPlay muted loop>
-    <source src="src/images/VID-20250726-WA0001.mp4" type="video/mp4"></source>
-    <source src="src/images/VID-20250726-WA0001.mp4"  type="video/webm"></source>
+    <source src="/VID-20250726-WA0001.mp4" type="video/mp4"></source>
+    <source src="/VID-20250726-WA0001.mp4"  type="video/webm"></source>
     </video>
       </h1>
 
@@ -32,8 +32,8 @@ function App() {
     
     <h1>
        <video style={{width:"100%", maxWidth:760}} autoPlay muted loop>
-        <source src="src/images/VID-20250726-WA0006.mp4" type="video/mp4"></source>
-        <source src="src/images/VID-20250726-WA0006.mp4"  type="video/webm"></source>
+        <source src="/VID-20250726-WA0006.mp4" type="video/mp4"></source>
+        <source src="/VID-20250726-WA0006.mp4"  type="video/webm"></source>
       </video>
     </h1>
 
@@ -51,8 +51,8 @@ function App() {
     </div>
     <h1 style={{}}>
       <video style={{width:"100%"}} autoPlay  muted loop>
-        <source src="src/images/VID-20250726-WA0003.mp4" type="video/mp4"></source>
-        <source src="src/images/VID-20250726-WA0003.mp4"  type="video/webm"></source>
+        <source src="/VID-20250726-WA0003.mp4" type="video/mp4"></source>
+        <source src="/VID-20250726-WA0003.mp4"  type="video/webm"></source>
      </video>
 
       </h1>
@@ -71,8 +71,8 @@ function App() {
       {/*video*/}
       <h1 style={{}}>
       <video style={{width:"100%"}} autoPlay  muted loop>
-        <source src="src/images/VID-20250726-WA0005.mp4" type="video/mp4"></source>
-        <source src="src/images/VID-20250726-WA0005.mp4"  type="video/webm"></source>
+        <source src="/VID-20250726-WA0005.mp4" type="video/mp4"></source>
+        <source src="/VID-20250726-WA0005.mp4"  type="video/webm"></source>
      </video>
 
       </h1>
@@ -90,8 +90,8 @@ function App() {
       {/*video*/}
       <h1 style={{}}>
       <video style={{width:"100%"}} autoPlay  muted loop>
-        <source src="src/images/VID-20250726-WA0002.mp4" type="video/mp4"></source>
-        <source src="src/images/VID-20250726-WA0002.mp4"  type="video/webm"></source>
+        <source src="/VID-20250726-WA0002.mp4" type="video/mp4"></source>
+        <source src="/VID-20250726-WA0002.mp4"  type="video/webm"></source>
      </video>
 
       </h1>
@@ -109,8 +109,8 @@ function App() {
       {/*video*/}
       <h1 style={{}}>
       <video style={{width:"100%"}} autoPlay  muted loop>
-        <source src="src/images/VID-20250726-WA0004.mp4" type="video/mp4"></source>
-        <source src="src/images/VID-20250726-WA0004.mp4"  type="video/webm"></source>
+        <source src="/VID-20250726-WA0004.mp4" type="video/mp4"></source>
+        <source src="/VID-20250726-WA0004.mp4"  type="video/webm"></source>
      </video>
 
       </h1>
@@ -124,8 +124,8 @@ function App() {
       </div>
     <h1 style={{}}>
       <video style={{width:"100%"}} autoPlay  muted loop>
-        <source src="src/images/VID-20250726-WA0007.mp4" type="video/mp4"></source>
-        <source src="src/images/VID-20250726-WA0007.mp4"  type="video/webm"></source>
+        <source src="/VID-20250726-WA0007.gmp4" type="video/mp4"></source>
+        <source src="/VID-20250726-WA0007.mp4"  type="video/webm"></source>
      </video>
 
       </h1>
@@ -154,7 +154,7 @@ function App() {
       </div>
       </section>
     <footer style={{marginInline:30}}>
-      <img style={{marginInline:-20, width: 150, height:60, }} src="\src\images\slack.png" />
+      <img style={{marginInline:-20, width: 150, height:60, }} src="/slack.png" />
       <p style={{color: "blue"}}>Download Slack</p>
       <div style={{display:"flex", gap:10, marginBlockEnd:25}}>
       <p style={{color: "gray"}}>Privacy</p>
@@ -168,5 +168,4 @@ function App() {
     </main>
   )
 }
-
 export default App
