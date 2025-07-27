@@ -6,9 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slack</title>
     <style>
-section{
-  margin: 8% 0%;
+  #hover-container {
+  position: relative;
+  display: inline-block;
 }
+
+#hover-target {
+  cursor: pointer;
+}
+
+.popup-box {
+  display: none;
+  position: absolute;
+  top: 100%; /* appears below the text */
+  left: 23%;
+  width: 50%;
+  height: max-content;
+  background: whitesmoke;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 1%;
+  z-index: 100;
+}
+
+#hover-target:hover + .popup-box,
+.popup-box:hover {
+  display: block;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
   'FILL' 0,
@@ -20,7 +45,7 @@ section{
         display: none;
     }
       .responsive{
-        display: block;
+        /* display: block; */
       }
       @media screen and (min-width: 760px){
         .responsive{

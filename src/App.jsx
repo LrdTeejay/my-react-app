@@ -2,14 +2,93 @@ function App() {
 
   return (
     <main>
-    <header >
-    <nav style={{display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom:80}}>
+    <header >  
+    <nav id="hover-container" style={{display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom:80}}>
       <img style={{width: 150, height:60, }} src="/slack.png" />
-      <div className="att" style={{fontWeight:"bolder"}}>Features </div>
-      <div className="att" style={{fontWeight:"bolder"}}>Solution </div>
-      <div className="att" style={{fontWeight:"bolder"}}>Enterprise </div>
-      <div className="att" style={{fontWeight:"bolder"}}>Resources </div>
-      <div className="att" style={{fontWeight:"bolder"}}>Pricing </div>
+      {/* <div id="hover-container" style={{display: "flex"}}> */}
+
+      <div className="att" id="hover-target" style={{fontWeight:"bolder"}}><u>Features</u></div>
+      <div class="popup-box">
+      <div style={{display: "flex", justifyContent: "space-around", gap:"20%"}}>
+        <div >
+          <h3>COLLABORATION</h3>
+          <p><b>Channels</b> <br/>Organize teams and work</p>
+          <p><b>Slack Connect</b> <br />Work with external partners</p>
+          <p><b>Messaging</b> <br />Chat with your team</p>
+          <p><b>Huddles</b> <br />Meet with audio and video</p>
+          <p><b>Clips</b> <br />Record and share updates</p>     
+        </div>
+        <div>
+          <h3>PROJECT MANAGEMENT</h3> 
+          <p><b>Templates</b> <br />Start any task, fast</p>
+          <p><b>Canvas</b> <br />Create rich, flexible docs</p>
+          <p><b>Lists</b> <br />Organize, track and manage projects</p>
+          <p><b>File Sharing </b><br />Bring files to the flow of work</p>       
+        </div>
+        
+      </div>
+  </div>
+
+<div className="att" id="hover-target" style={{fontWeight:"bolder"}}><u>Solution</u> </div>
+     <div class="popup-box">
+      <div style={{display: "flex", justifyContent: "space-around"}}>
+        <div >
+          <h3>BY DEPARTMENT</h3>
+          <p>Engineering</p>
+          <p>IT</p>
+          <p>Customer Service</p>
+          <p>Sales</p>
+          <p>Project Management</p>
+          <p>Marketing</p>
+          <p>Human Resources</p>
+          <p>Security</p>
+        </div>
+        <div>
+          <h3>BY INDUSTRY</h3>
+          <p>Manufacturing, Auto & Energy</p>
+          <p>Technology</p>
+          <p>Media</p>
+          <p>Small Business</p>
+          <p>Financial Services</p>
+          <p>Retail</p>
+          <p>Public Sector</p>
+          <p>Education</p>
+          <p>Health & Life Science</p>
+        </div>
+      </div>
+  </div>
+
+<div className="att"  style={{fontWeight:"bolder"}}>Enterprise </div>
+      
+
+<div className="att" id="hover-target" style={{fontWeight:"bolder"}}><u>Resources</u></div>
+ <div class="popup-box">
+      <div style={{display: "flex", justifyContent: "space-around"}}>
+        <div >
+          <h4>Resources Library</h4> 
+          <p>Events</p>
+          <p>Customer Stories</p>
+          <p>Blog</p>
+        </div>
+        <div>
+          <h4>What’s New</h4>
+          <p>Developers</p>
+          <p>Community</p>
+          <p>Slack Marketplace</p>
+        </div>
+        <div>
+          <h4>Product Tour</h4>
+          <p>Partners</p>
+          <p>Slack Certified</p>
+          <p>Health & Life Science</p>
+        </div>
+      </div>
+  </div> 
+
+<div className="att" style={{fontWeight:"bolder"}}>Pricing </div>
+      
+  
+      {/* </div> */}
       <div style={{display:"flex", alignItems: "center", gap:20}}>
       <img src="/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.png" alt="" />
       <button style={{backgroundColor: "hsla(286, 72%, 27%, 1.00)", color: "white", padding:15, borderRadius: 5, fontWeight: 600, border:"none",}}>GET STARTED</button>
@@ -115,7 +194,8 @@ function App() {
 
       </h1>
     </section>
-    <article className="responsive" style={{marginInline:20, backgroundColor: "lightblue", padding:20, borderRadius:"20px"}}>
+    <article className="responsive" style={{marginInline:20, 
+    background: "linear-gradient(90deg, rgba(78,173,217,1) 0%, rgba(192,229,240,1) 31%, rgba(255,255,255,1) 53%)", padding:20, borderRadius:"20px"}}>
       <div className="child" style={{marginInlineStart:20}}>
       <p style={{fontWeight: "bold"}}>Agentforce in Slack</p>
       <h2 style={{fontSize: 30, fontFamily: "Helvetica"}}>There’s an AI agent for everyone in Slack.</h2>
